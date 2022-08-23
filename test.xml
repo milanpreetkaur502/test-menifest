@@ -5,7 +5,7 @@
   <remote fetch="https://github.com/mendersoftware" name="mender"/>
    
   <!-- Define Projects -->
-  <project name="meta-de-recipe/meta-de" revision="40e2d1803007739062c3cdcc7bdf646ab65f1363" path="sources/meta-de-recipe"/>
+  <project name="meta-de-recipe/meta-de" remote="meta-de-recipe/meta-de" revision="40e2d1803007739062c3cdcc7bdf646ab65f1363" path="sources/meta-de-recipe"/>
   
   <project name="meta-mender" remote="mender" revision="dunfell" path="sources/meta-mender"/>
   <project name="meta-mender-community" remote="mender" revision="dunfell" path="sources/meta-mender-community">
