@@ -8,7 +8,7 @@
   <default sync-j="4" revision="dunfell"/> 
   
   <!-- Define Projects -->
-  <project name="meta-de-recipe/meta-de" path="sources/meta-de-recipe" remote="github" revision="main"/>
+  <project name="meta-de-recipe/meta-de" path="sources/meta-de-recipe" revision="main"/>
   
   <project name="meta-mender" remote="mender" revision="dunfell" path="sources/meta-mender"/>
   <project name="meta-mender-community" remote="mender" revision="dunfell" path="sources/meta-mender-community">
