@@ -6,7 +6,6 @@
   
   <!-- Define data for this manifest -->
   <default sync-j="4" revision="dunfell"/> 
-  <default sync-j="4" revision="main"/> 
   
   <!-- Define Projects -->
   <project name="meta-de" path="sources/meta-de-recipe" remote="AWaDH-IIT-Ropar" revision="main"/>
