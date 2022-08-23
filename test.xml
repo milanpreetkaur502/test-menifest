@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Define Remotes -->
+  <remote fetch="https://github.com/AWaDH-IIT-Ropar" name="meta-de-recipe"/>
+  <remote fetch="https://github.com/mendersoftware" name="mender"/>
+  
+  <!-- Define data for this manifest -->
+  <default sync-j="4" revision="dunfell"/> 
+  <default sync-j="4" revision="main"/> 
+  
+  <!-- Define Projects -->
+  <project name="meta-de" path="sources/meta-de-recipe" remote="AWaDH-IIT-Ropar" revision="main"/>
+  
+  <project name="meta-mender" remote="mender" revision="dunfell" path="sources/meta-mender"/>
+  <project name="meta-mender-community" remote="mender" revision="dunfell" path="sources/meta-mender-community">
+  <copyfile dest="setup-environment" src="scripts/setup-environment"/>
+  
+  </project>
+</manifest>
+
