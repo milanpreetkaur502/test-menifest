@@ -7,7 +7,7 @@
   <default sync-j="4" revision="main"/> 
   
   <!-- Define Projects -->
-  <project name="meta-de" remote="meta-de-recipe" revision="main" path="layers"/> 
+  <project name="meta-de-recipe/meta-de" remote="meta-de-recipe" revision="main" path="layers"/> 
   <project name="meta-mender" remote="mender" revision="dunfell" path="meta-mender"/>
   <project name="meta-mender-community" remote="mender" revision="dunfell" path="meta-mender-community">
   <copyfile dest="setup-environment" src="scripts/setup-environment"/>
