@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Define Remotes -->
-  <remote fetch="https://github.com/AWaDH-IIT-Ropar" name="meta-de-recipe/meta-de"/>
+  <remote fetch="https://github.com/milanpreetkaur502" name="meta-de-recipe/meta-de"/>
   <remote fetch="https://github.com/mendersoftware" name="mender"/>
    
   <!-- Define Projects -->
