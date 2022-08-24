@@ -3,7 +3,9 @@
   <!-- Define Remotes -->
   <remote fetch="https://github.com/milanpreetkaur502/meta-de-recipe" name="meta-de"/>
   <remote fetch="https://github.com/mendersoftware" name="mender"/>
-   
+  
+  <default sync-j="4" revision="main"/> 
+  
   <!-- Define Projects -->
   <project name="meta-de" remote="meta-de" revision="main" path="layers"/>
   
