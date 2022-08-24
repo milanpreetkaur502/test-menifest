@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Define Remotes -->
-  <remote fetch="https://github.com/milanpreetkaur502/meta-de-recipe" name="meta-de"/>
+  <remote fetch="https://github.com/milanpreetkaur502/meta-de-recipe" name="meta-de-recipe"/>
   <remote fetch="https://github.com/mendersoftware" name="mender"/>
   
   <default sync-j="4" revision="main"/> 
