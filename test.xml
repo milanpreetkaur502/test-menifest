@@ -7,7 +7,7 @@
   <default sync-j="4" revision="main"/> 
   
   <!-- Define Projects -->
-  <project name="meta-de" remote="meta-de" revision="main" path="layers"/>
+  <project name="meta-de-recipe" remote="meta-de" revision="main" path="layers"/>
   
   <project name="meta-mender" remote="mender" revision="dunfell" path="meta-mender"/>
   <project name="meta-mender-community" remote="mender" revision="dunfell" path="meta-mender-community">
