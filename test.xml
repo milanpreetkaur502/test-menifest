@@ -3,13 +3,12 @@
   <!-- Define Remotes -->
   <remote fetch="https://github.com/milanpreetkaur502" name="meta-de"/>
   <remote fetch="https://github.com/mendersoftware" name="mender"/>
-  
-  <default sync-j="4" revision="main"/> 
+  <remote fetch="https://github.com/aws4embeddedlinux" name="meta-aws"/>
   
   <!-- Define Projects -->
-  <project name="meta-de" remote="meta-de" revision="main" path="layers/meta-de"/> 
+  <project name="meta-de" remote="meta-de" revision="main" path="layers/meta-de"/>
+  <project name="meta-aws" remote="meta-aws" revision="dunfell" path="layers/meta-aws"/> 
   <project name="meta-mender" remote="mender" revision="dunfell" path="layers/meta-mender"/>
   <project name="meta-mender-community" remote="mender" revision="dunfell" path="layers/meta-mender-community"> 
   </project>
 </manifest>
-
